@@ -68,6 +68,4 @@ class VRP_REP_Scrapper:
 
 if __name__ == "__main__":
     scrapper = VRP_REP_Scrapper()
-    # scrapper.set_option_to_max()
-    # scrapper.download_file()
-    scrapper.move_to_next_page(1)
+    scrapper.set_option_to_max()
